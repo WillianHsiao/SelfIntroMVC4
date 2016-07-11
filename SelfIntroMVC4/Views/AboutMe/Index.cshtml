@@ -1,0 +1,30 @@
+﻿@model SelfIntroMVC4.ViewModels.AboutMeModel
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>關於我</title>
+</head>
+<body>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <tr>
+                <th>@Html.LabelFor(m=>m.Name)</th>
+                <td>@Html.DisplayFor(m=>m.Name)</td>
+            </tr>
+            <tr>
+                <th>@Html.LabelFor(m=>m.NickName)</th>
+                <td>@Html.DisplayFor(m=>m.NickName)</td>
+            </tr>
+            <tr>
+                <th>@Html.LabelFor(m=>m.EnglishName)</th>
+                <td>@Html.DisplayFor(m=>m.EnglishName)</td>
+            </tr>
+            <tr>
+                <th>@Html.LabelFor(m=>m.BirthDay)</th>
+                <td>@Model.BirthDay.ToString("yyyy/MM/dd")</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
