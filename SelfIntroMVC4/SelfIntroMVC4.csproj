@@ -121,6 +121,8 @@
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\small-business.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\image\FrontBg.jpg" />
+    <Content Include="Content\image\logo76183173.png" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\jquery.js" />
